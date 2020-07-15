@@ -1,0 +1,40 @@
+#header{
+    background-color: #943658;
+}
+
+#header a:hover{
+    color: white;
+}
+
+#main .carousel-inner img{
+    max-height: 100vh;
+    object-fit: cover;
+}
+
+#carousel{
+    position: relative;
+}
+
+#carousel .overlay{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.btn-wine{
+    color: white;
+    background-color: #5b4d60;
+}
+
+.btn-wine:hover{
+    color: white;
+    background-color: #3b445c;
+}
